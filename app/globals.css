@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fcfbf9;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
