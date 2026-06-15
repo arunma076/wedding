@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 const WEDDING_DATE = new Date("2026-07-05T10:00:00+05:30");
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 const C = {
   bg:        "#fcfbf9",
@@ -250,10 +251,11 @@ function Hero() {
       {/* Photo */}
       <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
         <Image
-          src="/hero-bg.jpg"
+          src={`${BASE}/hero-bg.jpg`}
           alt=""
           fill
           priority
+          unoptimized
           style={{ objectFit: "cover", objectPosition: "center 25%", opacity: 0.55 }}
         />
       </div>
@@ -426,9 +428,10 @@ function Celebration() {
                   position: "relative",
                 }}>
                   <Image
-                    src="/aa.jpeg"
+                    src={`${BASE}/aa.jpeg`}
                     alt="Arun &amp; Aswathy"
                     fill
+                    unoptimized
                     style={{ objectFit: "cover" }}
                   />
                 </div>
