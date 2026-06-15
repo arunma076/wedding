@@ -214,7 +214,7 @@ function TopBar() {
         fontSize: 18, color: C.dark,
         opacity: scrolled ? 1 : 0, transition: "opacity 0.4s",
       }}>
-        Arun &amp; Aswati
+        Arun &amp; Ashwati
       </div>
       <button
         aria-label="Music"
@@ -268,7 +268,7 @@ function Hero() {
       {/* Content */}
       <div style={{ position: "relative", zIndex: 2, textAlign: "center", padding: "0 28px" }}>
         <h1 className="mangalyam">മംഗല്യം</h1>
-        <div className="hero-names">Arun &amp; Aswati</div>
+        <div className="hero-names">Arun &amp; Ashwati</div>
         <div className="hero-date">
           {DATE_STR.split("").map((ch, i) => (
             <span
@@ -326,7 +326,7 @@ function Celebration() {
                 fontSize: "clamp(40px, 7vw, 62px)",
                 color: C.dark, lineHeight: 1.1, margin: "0 0 24px",
               }}>
-                Arun &amp; Aswati
+                Arun &amp; Ashwati
               </h2>
               <p style={{
                 fontFamily: "var(--font-outfit)", fontWeight: 300,
@@ -441,7 +441,7 @@ function Celebration() {
                   textAlign: "center", padding: "12px 0 6px",
                   lineHeight: 1,
                 }}>
-                  Arun &amp; Aswati
+                  Arun &amp; Ashwati
                 </div>
               </div>
             </Reveal>
@@ -744,13 +744,13 @@ function Footer() {
         fontSize: "clamp(34px, 6vw, 52px)",
         color: C.dark, marginBottom: 14,
       }}>
-        Arun &amp; Aswati
+        Arun &amp; Ashwati
       </div>
       <div style={{
         fontFamily: "var(--font-outfit)", fontSize: 13,
         color: C.secondary, opacity: 0.6, marginBottom: 40,
       }}>
-        5 · 7 · 2026 · Guruvayoor, Kerala
+        5 · 7 · 2026
       </div>
 
       {/* Divider */}
