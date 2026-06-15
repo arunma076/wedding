@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 const WEDDING_DATE = new Date("2026-07-05T10:00:00+05:30");
 
@@ -247,12 +248,15 @@ function Hero() {
       overflow: "hidden", background: "#2c3e38",
     }}>
       {/* Photo */}
-      <div style={{
-        position: "absolute", inset: 0,
-        backgroundImage: "url('/hero-bg.jpg')",
-        backgroundSize: "cover", backgroundPosition: "center 25%",
-        opacity: 0.55,
-      }} />
+      <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
+        <Image
+          src="/hero-bg.jpg"
+          alt=""
+          fill
+          priority
+          style={{ objectFit: "cover", objectPosition: "center 25%", opacity: 0.55 }}
+        />
+      </div>
       {/* Gradient overlay */}
       <div style={{
         position: "absolute", inset: 0,
@@ -419,11 +423,13 @@ function Celebration() {
                   background: "#d8d0c4",
                   overflow: "hidden",
                   aspectRatio: "4 / 5",
+                  position: "relative",
                 }}>
-                  <img
+                  <Image
                     src="/aa.jpeg"
-                    alt="Arun &amp; Aswati"
-                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                    alt="Arun &amp; Aswathy"
+                    fill
+                    style={{ objectFit: "cover" }}
                   />
                 </div>
                 <div style={{
