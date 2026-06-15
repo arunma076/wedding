@@ -261,7 +261,7 @@ function Hero() {
 
       {/* Content */}
       <div style={{ position: "relative", zIndex: 2, textAlign: "center", padding: "0 28px" }}>
-        <h1 className="mangalyam">മാംഗല്യം</h1>
+        <h1 className="mangalyam">മംഗല്യം</h1>
         <div className="hero-names">Arun &amp; Aswati</div>
         <div className="hero-date">
           {DATE_STR.split("").map((ch, i) => (
