@@ -915,7 +915,10 @@ export default function WeddingPage() {
           display: grid;
           grid-template-columns: 1fr 1fr;
           gap: 14px;
+          align-items: stretch;
         }
+        .detail-grid > * { height: 100%; }
+        .detail-grid > * > div { height: 100%; box-sizing: border-box; }
         @media (max-width: 520px) {
           .detail-grid { grid-template-columns: 1fr; }
         }
