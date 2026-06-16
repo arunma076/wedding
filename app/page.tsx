@@ -425,7 +425,7 @@ function Celebration() {
                 }}>
                   <Image
                     src={`${BASE}/aa.jpeg`}
-                    alt="Arun &amp; Aswathy"
+                    alt="Arun &amp; Ashwati"
                     fill
                     unoptimized
                     style={{ objectFit: "cover" }}
