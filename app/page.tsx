@@ -927,7 +927,10 @@ export default function WeddingPage() {
           display: grid;
           grid-template-columns: 1fr;
           gap: 18px;
+          align-items: stretch;
         }
+        .events-grid > * { height: 100%; }
+        .events-grid > * > div { height: 100%; box-sizing: border-box; }
         @media (min-width: 700px) {
           .events-grid { grid-template-columns: repeat(3, 1fr); }
         }

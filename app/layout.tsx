@@ -32,7 +32,7 @@ const notoSerialMal = Noto_Serif_Malayalam({
 });
 
 export const metadata: Metadata = {
-  title: "മാംഗല്യം · Arun & Aswathy",
+  title: "മംഗല്യം · Arun & Aswathy",
   description:
     "Join us to celebrate the wedding of Arun and Aswathy. 5 July 2026 at Guruvayoor Temple, Kerala.",
 };
