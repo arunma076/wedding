@@ -355,10 +355,6 @@ function Celebration() {
                     fontFamily: "var(--font-playfair)", fontSize: 22,
                     color: C.dark, marginBottom: 5, lineHeight: 1.2,
                   }}>5 July 2026</div>
-                  <div style={{
-                    fontFamily: "var(--font-outfit)", fontSize: 14,
-                    color: C.secondary,
-                  }}>10:00 AM Onwards</div>
                 </div>
               </Reveal>
               <Reveal delay={160}>
